@@ -13,6 +13,10 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
+    "style": "sass sass/style.scss sass/style.css",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "sass": "^1.102.0"
   }
 }
